@@ -1,5 +1,8 @@
 ---
-mandatory = True
+include:
+  - docassemble.AssemblyLine:assembly_line.yml
+---
+mandatory: True
 code: |
   test_variable
 ---
