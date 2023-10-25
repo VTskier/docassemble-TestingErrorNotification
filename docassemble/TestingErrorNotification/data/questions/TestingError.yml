@@ -21,10 +21,11 @@ data:
     Testing Error Screen
   original_form: >-
     https://vtlawhelp.org/roadmaps
-    ---
 ---
 code: |
   al_custom_error_options = [
+    "Use the [original PDF versions](https://vtlawhelp.org/roadmap/relief-from-abuse/step-3) of these forms instead."
     "Visit [VTLawHelp.org](https://vtlawhelp.org) to find legal help."
+    "Get court forms and get basic info about court forms and the court process. Reach out to the [Vermont Judiciary's ARC.](https://www.vermontjudiciary.org/self-help/ARC)
   ]
 ---
