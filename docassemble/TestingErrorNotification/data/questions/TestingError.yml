@@ -6,3 +6,25 @@ mandatory: True
 code: |
   test_variable
 ---
+mandatory: True
+comment: |
+  Global interview metadata
+variable name: interview_metadata["TestingError"]
+data:
+  al_weaver_version: "1.9.0"
+  generated on: "2023-03-22"
+  title: >-
+    Testing Error Screen
+  short title: >-
+    Testing Error Screen
+  description: |-
+    Testing Error Screen
+  original_form: >-
+    https://vtlawhelp.org/roadmaps
+    ---
+---
+code: |
+  al_custom_error_options = [
+    "Visit [VTLawHelp.org](https://vtlawhelp.org) to find legal help."
+  ]
+---
